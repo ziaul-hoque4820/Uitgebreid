@@ -109,6 +109,111 @@
             </div>
         </section>
 
+        <section class="relative w-full py-20 px-6 font-['Outfit'] overflow-hidden bg-white">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-24">De route</h2>
+
+            <div class="max-w-6xl mx-auto relative" style="min-height: 1400px;">
+
+                <!-- SVG Path - Red Line with Number Positions -->
+                <div class="hidden md:block absolute left-0 right-0 top-0 pointer-events-none z-0"
+                    style="height: 1400px;">
+                    <svg viewBox="0 0 800 1400" fill="none" preserveAspectRatio="none" class="w-full h-full">
+                        <!-- Red ribbon path -->
+                        <path d="M 400 50 
+           C 520 120, 580 180, 520 280
+           C 460 380, 280 420, 240 520
+           C 200 620, 280 680, 400 760
+           C 520 840, 620 900, 560 1000
+           C 500 1100, 320 1140, 280 1240
+           C 240 1340, 340 1380, 400 1400" stroke="#E11D48" stroke-width="4" fill="none" stroke-linecap="round" />
+                    </svg>
+
+                    <!-- Number circles positioned absolutely on the SVG path -->
+                    <div class="absolute" style="top: 50px; left: 50%; transform: translate(-50%, -50%);">
+                        <div
+                            class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-black text-white flex items-center justify-center font-bold text-xl md:text-2xl z-30 border-4 border-white shadow-lg">
+                            1
+                        </div>
+                    </div>
+
+                    <div class="absolute" style="top: 520px; left: 30%; transform: translate(-50%, -50%);">
+                        <div
+                            class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-black text-white flex items-center justify-center font-bold text-xl md:text-2xl z-30 border-4 border-white shadow-lg">
+                            2
+                        </div>
+                    </div>
+
+                    <div class="absolute" style="top: 880px; left: 69%; transform: translate(-50%, -50%);">
+                        <div
+                            class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-black text-white flex items-center justify-center font-bold text-xl md:text-2xl z-30 border-4 border-white shadow-lg">
+                            3
+                        </div>
+                    </div>
+
+                    <div class="absolute" style="top: 1400px; left: 50%; transform: translate(-50%, -50%);">
+                        <div
+                            class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-black text-white flex items-center justify-center font-bold text-xl md:text-2xl z-30 border-4 border-white shadow-lg">
+                            4
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 1 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between mb-20 md:mb-40">
+                    <div class="w-full md:w-5/12 text-center md:text-right order-1 md:order-1">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-3 leading-tight">Login en<br>maak een selfie</h3>
+                        <p class="text-sm md:text-base text-gray-600 mb-3 max-w-sm mx-auto md:ml-auto md:mr-0">
+                            Je selfie blijft anoniem! We gebruiken deze om jouw uitstraling vast te leggen, zodat Flori
+                            kan zoeken naar mensen die passen bij wat jij aantrekkelijk vindt.
+                        </p>
+                        <span
+                            class="font-['Caveat'] text-xl md:text-2xl text-violet-400 inline-block transform -rotate-2">
+                            Privacy staat voorop!
+                        </span>
+                    </div>
+
+                    <!-- Mobile Number Circle for Step 1 -->
+                    <div
+                        class="md:hidden z-10 w-12 h-12 md:w-14 md:h-14 rounded-full bg-black text-white flex items-center justify-center font-bold text-xl md:text-2xl my-6 md:my-0 order-2">
+                        1
+                    </div>
+
+                    <div class="w-full md:w-5/12 flex justify-center order-3">
+                        <img src="./assets/image/selfie-heart-new-JSoUewcB.png"
+                            class="w-28 md:w-32 h-auto animate-pulse-scale" alt="Step 1">
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative flex flex-col md:flex-row items-center justify-between mb-20 md:mb-40">
+                    <div class="w-full md:w-5/12 flex justify-center order-3 md:order-1">
+                        <img src="./assets/image/chat-bubble-heart-CSojUMx5.png"
+                            class="w-28 md:w-32 h-auto md:mr-10 animate-pulse-scale" alt="Step 2">
+                    </div>
+
+                    <!-- Mobile Number Circle for Step 2 -->
+                    <div
+                        class="md:hidden z-10 w-12 h-12 md:w-14 md:h-14 rounded-full bg-black text-white flex items-center justify-center font-bold text-xl md:text-2xl my-6 md:my-0 order-2">
+                        2
+                    </div>
+
+                    <div class="w-full md:w-5/12 text-center md:text-left order-1 md:order-3">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-3 leading-tight">Chat met onze<br>speelse AI bot
+                            Flori</h3>
+                        <p class="text-sm md:text-base text-gray-600 mb-3 max-w-sm mx-auto md:mr-auto md:ml-0">
+                            Chat met Flori, onze speelse AI matchmaker. Vertel over jezelf, wat je leuk vindt, wat je
+                            belangrijk vindt in een ander en wat jou uniek maakt. Flori analyseert jouw antwoorden en
+                            bouwt daarmee jouw persoonlijke profiel op.
+                        </p>
+                        <span
+                            class="font-['Caveat'] text-xl md:text-2xl text-violet-400 inline-block transform -rotate-2">
+                            Slim en verrassend
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
